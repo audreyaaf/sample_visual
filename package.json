@@ -1,5 +1,23 @@
+
 {
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Cypress project for Beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress run",
+    "cypress:dashboard": "cypress run --record --key c2a68531-49e1-44eb-8c11-8392dd829cbb"
+  },
+  "keywords": [
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "audrey",
+  "license": "ISC",
   "dependencies": {
     "cypress": "^9.4.1"
   }
-}
+} 
